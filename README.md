@@ -18,3 +18,10 @@ I guess I'm missing something because the sample project [UAMP](https://github.c
 Question is : what am I missing ?
 
 I suppose it is the configuration of the media session, notification, manifest or permission but I cannot figure it out.
+
+## How to reproduce the problem ?
+
+- Connect a bluetooth headset to your Android device.
+- Build and launch the app.
+- You should hear "Audio Menu has been activated.", then click on the play/pause button of your headset.
+- You should hear nothing. Expected behavior is to hear "Audio Menu has been triggered.".
